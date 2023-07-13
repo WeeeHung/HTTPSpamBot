@@ -1,9 +1,9 @@
 # HTTPSpamBot
-to spam websites at high volume.
+spam bot build in python to spam websites at high volume.
 
 
 ## Sending concurrent requests to Example Domain
-This is a simple Python script that sends concurrent HTTP requests to the Example Domain using the requests library and concurrent.futures module. The script sends a total of MAX_REQUESTS requests concurrently, each with a unique user agent.
+This is a simple Python script that sends concurrent HTTP requests to the Example Domain using the requests library and concurrent.futures module. The script sends a total of MAX_REQUESTS requests concurrently, each with a unique user agent. Current script sends HTTP GET requests only, feel free to edit for other request types.
 
 ## Prerequisites
 - Python 3.x
